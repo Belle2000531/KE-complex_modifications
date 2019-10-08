@@ -1,0 +1,51 @@
+<root>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_HIRAGANA</name>
+    <inputsourceid_equal>com.apple.inputmethod.Kotoeri.Japanese</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_SPANISH</name>
+    <inputsourceid_equal>com.apple.keylayout.Spanish</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_US</name>
+    <inputsourceid_equal>com.apple.keylayout.US</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_CHINESE</name>
+    <inputsourceid_equal>com.apple.inputmethod.TCIM.Pinyin</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <item>
+    <name>inputsources</name>
+    <identifier>inputsources</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_L, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_US, KeyCode::COMMAND_L</autogen>
+    <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_R, ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_SPANISH, KeyCode::COMMAND_R</autogen>
+    <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_CHINESE, KeyCode::VK_CHANGE_INPUTSOURCE_US, KeyCode::VK_CHANGE_INPUTSOURCE_CHINESE</autogen>
+    <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::OPTION_R | ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_HIRAGANA, KeyCode::VK_CHANGE_INPUTSOURCE_US, KeyCode::VK_CHANGE_INPUTSOURCE_HIRAGANA</autogen>
+  </item>
+</root><root>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_HIRAGANA</name>
+    <inputsourceid_equal>com.apple.inputmethod.Kotoeri.Japanese</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_SPANISH</name>
+    <inputsourceid_equal>com.apple.keylayout.Spanish</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_US</name>
+    <inputsourceid_equal>com.apple.keylayout.US</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_CHINESE</name>
+    <inputsourceid_equal>com.apple.inputmethod.TCIM.Pinyin</inputsourceid_equal>
+  </vkchangeinputsourcedef>
+  <item>
+    <name>inputsources</name>
+    <identifier>inputsources</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_L, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_US, KeyCode::COMMAND_L</autogen>
+    <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_R, ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_SPANISH, KeyCode::COMMAND_R</autogen>
+    <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_CHINESE, KeyCode::VK_CHANGE_INPUTSOURCE_US, KeyCode::VK_CHANGE_INPUTSOURCE_CHINESE</autogen>
+    <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::OPTION_R | ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_HIRAGANA, KeyCode::VK_CHANGE_INPUTSOURCE_US, KeyCode::VK_CHANGE_INPUTSOURCE_HIRAGANA</autogen>
+  </item>
+</root>
